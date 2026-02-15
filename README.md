@@ -92,3 +92,32 @@ The markdown content below contains the instructions, examples, and guidelines t
 Skills are a great way to teach Claude how to get better at using specific pieces of software. As we see awesome example skills from partners, we may highlight some of them here:
 
 - **Notion** - [Notion Skills for Claude](https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0)
+- **Robot Framework (Python)** - [Robot Framework Python Skill](https://arvind3.github.io/robot-framework-py-skill/)
+
+### Why this kind of skill is valuable (with concrete examples)
+
+Below are examples of outcomes that help both technical teams and non-technical stakeholders quickly understand the value:
+
+1. **Release confidence before launch**
+   - *Example:* The skill generates and runs smoke tests for checkout, login, and password reset before each release.
+   - *Business value:* Fewer escaped bugs and less last-minute release anxiety.
+
+2. **Faster incident triage**
+   - *Example:* When a production issue is reported, the skill creates a focused regression test to reproduce it and verify the fix.
+   - *Business value:* Shorter mean time to resolution (MTTR) and clearer communication during incidents.
+
+3. **Clear status updates for leadership**
+   - *Example:* Test runs are summarized into plain-language updates: what passed, what failed, user impact, and recommended next steps.
+   - *Business value:* Product managers and executives can make decisions without parsing raw test logs.
+
+4. **Better onboarding for new QA and developers**
+   - *Example:* New team members can ask for template tests (API, UI, data validation) and follow consistent patterns.
+   - *Business value:* Faster ramp-up and fewer process errors across teams.
+
+5. **Audit and compliance readiness**
+   - *Example:* The skill can standardize evidence capture (test steps, timestamps, screenshots, expected vs. actual results).
+   - *Business value:* Easier audit preparation and stronger proof of quality controls.
+
+6. **Cross-functional collaboration**
+   - *Example:* Non-engineering stakeholders can request scenarios in plain language ("verify invoice emails are sent after payment"), and the skill translates them into executable tests.
+   - *Business value:* QA becomes a shared responsibility instead of a siloed engineering activity.
